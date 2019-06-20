@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_uhbmUIvCEema4-1eEIwF7g" name="DB_Connection" id="_uhWt0IvCEema4-1eEIwF7g" label="DB_Connection" dataPackage="_squ6UJLcEemY7oYcBrqyhQ" dbType="MONGODB">
+    <attributes xmi:id="_78jJcJLaEem75MNBbcrxxg" key="DB_VERSION" value="MONGODB_3_5_X"/>
+    <attributes xmi:id="_78jwgJLaEem75MNBbcrxxg" key="HOST" value="localhost"/>
+    <attributes xmi:id="_78jwgZLaEem75MNBbcrxxg" key="PORT" value="27017"/>
+    <attributes xmi:id="_78jwgpLaEem75MNBbcrxxg" key="DATABASE" value="gco"/>
+    <attributes xmi:id="_78jwg5LaEem75MNBbcrxxg" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_78jwhJLaEem75MNBbcrxxg" key="USERNAME" value=""/>
+    <attributes xmi:id="_78jwhZLaEem75MNBbcrxxg" key="PASSWORD" value=""/>
+    <attributes xmi:id="_78jwhpLaEem75MNBbcrxxg" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_78jwh5LaEem75MNBbcrxxg" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_squ6UJLcEemY7oYcBrqyhQ" name="gco" dataManager="_uhbmUIvCEema4-1eEIwF7g">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_squ6UZLcEemY7oYcBrqyhQ" name="sc_AtlasConcorde" id="_q8eBsJLcEemY7oYcBrqyhQ" label="sc_AtlasConcorde">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6UpLcEemY7oYcBrqyhQ" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6U5LcEemY7oYcBrqyhQ" name="__Title_" label="__Title_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6VJLcEemY7oYcBrqyhQ" name="_Condizione_" label="_Condizione_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6VZLcEemY7oYcBrqyhQ" name="_Prezzo_" label="_Prezzo_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6VpLcEemY7oYcBrqyhQ" name="_Luogo_" label="_Luogo_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6V5LcEemY7oYcBrqyhQ" name="_Id_Venditore_" label="_Id_Venditore_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6WJLcEemY7oYcBrqyhQ" name="_Id_oggetto_" label="_Id_oggetto_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6WZLcEemY7oYcBrqyhQ" name="_Info_venditore_" label="_Info_venditore_" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_squ6WpLcEemY7oYcBrqyhQ" name="sc_MarcaCorona" id="_rE2hoJLcEemY7oYcBrqyhQ" label="sc_MarcaCorona">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6W5LcEemY7oYcBrqyhQ" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6XJLcEemY7oYcBrqyhQ" name="__Title_" label="__Title_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6XZLcEemY7oYcBrqyhQ" name="_Condizione_" label="_Condizione_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6XpLcEemY7oYcBrqyhQ" name="_Prezzo_" label="_Prezzo_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6X5LcEemY7oYcBrqyhQ" name="_Luogo_" label="_Luogo_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6YJLcEemY7oYcBrqyhQ" name="_Id_Venditore_" label="_Id_Venditore_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6YZLcEemY7oYcBrqyhQ" name="_Id_oggetto_" label="_Id_oggetto_" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_squ6YpLcEemY7oYcBrqyhQ" name="_Info_venditore_" label="_Info_venditore_" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
